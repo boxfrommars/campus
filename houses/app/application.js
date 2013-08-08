@@ -16,6 +16,10 @@ Ext.define('Houses.Application', {
 
     controllers: [],
 
+    stores: [
+        'Navigation'
+    ],
+
     init: function() {
         Ext.util.History.init();
         this.control({

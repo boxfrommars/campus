@@ -1,5 +1,6 @@
 Ext.define('Houses.store.Navigation', {
     extend: 'Ext.data.TreeStore',
+    requires: ['Houses.model.NavigationItem'],
     model: 'Houses.model.NavigationItem',
     root: {
         expanded: true,

@@ -22,7 +22,7 @@ Ext.define('Houses.view.Main', {
         title: 'Навигация',
         itemId: 'houses-navigation-treepanel',
         xtype: 'treepanel',
-        store: 'Houses.store.Navigation',
+        store: 'Navigation',
         rootVisible: false,
         collapsible: true,
         cls: 'x-tree-noicon',
