@@ -22,9 +22,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.grid.TransformGrid": [],
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.FieldReplicator": [],
+  "Houses.model.NavigationItem": [],
   "Ext.ux.grid.filter.ListFilter": [],
   "ExtThemeNeptune.panel.Panel": [],
   "ExtThemeNeptune.toolbar.Paging": [],
+  "Houses.view.pages.InfoPermises": [],
   "Ext.ux.event.Driver": [],
   "Ext.ux.ajax.XmlSimlet": [],
   "Houses.Application": [],
@@ -41,6 +43,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Houses.controller.Main": [],
   "Ext.ux.DataView.LabelEditor": [],
   "Ext.ux.GroupTabPanel": [],
+  "Houses.view.pages.Info": [],
   "Ext.ux.grid.filter.StringFilter": [],
   "Ext.ux.statusbar.ValidationStatus": [],
   "ExtThemeNeptune.grid.column.RowNumberer": [],
@@ -64,7 +67,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.event.Recorder": [],
   "Ext.ux.RowExpander": [],
+  "Houses.view.pages.EngineerSystems": [],
   "Ext.ux.event.Player": [],
+  "Houses.store.Navigation": [],
   "ExtThemeNeptune.panel.Tool": [],
   "Ext.ux.ajax.SimManager": [],
   "Ext.ux.grid.filter.BooleanFilter": [],
@@ -108,11 +113,15 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.grid.TransformGrid": [],
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.FieldReplicator": [],
+  "Houses.model.NavigationItem": [],
   "Ext.ux.grid.filter.ListFilter": [
     "gridfilter.list"
   ],
   "ExtThemeNeptune.panel.Panel": [],
   "ExtThemeNeptune.toolbar.Paging": [],
+  "Houses.view.pages.InfoPermises": [
+    "widget.houses-page-infopermises"
+  ],
   "Ext.ux.event.Driver": [],
   "Ext.ux.ajax.XmlSimlet": [
     "simlet.xml"
@@ -137,6 +146,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.DataView.LabelEditor": [],
   "Ext.ux.GroupTabPanel": [
     "widget.grouptabpanel"
+  ],
+  "Houses.view.pages.Info": [
+    "widget.houses-page-info"
   ],
   "Ext.ux.grid.filter.StringFilter": [
     "gridfilter.string"
@@ -175,7 +187,11 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.event.Recorder": [],
   "Ext.ux.RowExpander": [],
+  "Houses.view.pages.EngineerSystems": [
+    "widget.houses-page-engineersystems"
+  ],
   "Ext.ux.event.Player": [],
+  "Houses.store.Navigation": [],
   "ExtThemeNeptune.panel.Tool": [],
   "Ext.ux.ajax.SimManager": [],
   "Ext.ux.grid.filter.BooleanFilter": [

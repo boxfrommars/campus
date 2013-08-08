@@ -62,6 +62,21 @@
  */
 /* including package ext-theme-neutral */
 /* including package ext-theme-neptune */
+/* including package campusTheme */
+/* line 1, ../../../../packages/campusTheme/sass/etc/all.scss */
+.x-tree-noicon .x-tree-icon-leaf {
+  visibility: hidden;
+  width: 2px;
+  /* Adjust width to suit */
+}
+
+/* line 5, ../../../../packages/campusTheme/sass/etc/all.scss */
+.x-tree-noicon .x-tree-icon {
+  visibility: hidden;
+  width: 2px;
+  /* Adjust width to suit */
+}
+
 /* including package ext-theme-neptune */
 /**
  * @var {boolean}

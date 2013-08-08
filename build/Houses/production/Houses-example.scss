@@ -1,5 +1,5 @@
 $image-search-path: '/home/xu/Workspace/campus/build/Houses/production/resources';
-$theme-name:  'ext-theme-neptune' !default;
+$theme-name:  'campusTheme' !default;
 $include-ext-abstractcomponent: true;
 $include-ext-abstractmanager: true;
 $include-ext-abstractplugin: true;
@@ -553,14 +553,21 @@ $include-extthemeneptune-toolbar-toolbar: true;
 $include-houses-application: true;
 $include-houses-app-application: true;
 $include-houses-controller-main: true;
+$include-houses-model-navigationitem: true;
+$include-houses-store-navigation: true;
 $include-houses-view-main: true;
 $include-houses-view-viewport: true;
+$include-houses-view-pages-engineersystems: true;
+$include-houses-view-pages-info: true;
+$include-houses-view-pages-infopermises: true;
 /* including package ext-theme-base */
 @import '../../../ext/packages/ext-theme-base/sass/etc/all';
 /* including package ext-theme-neutral */
 @import '../../../ext/packages/ext-theme-neutral/sass/etc/all';
 /* including package ext-theme-neptune */
 @import '../../../ext/packages/ext-theme-neptune/sass/etc/all';
+/* including package campusTheme */
+@import '../../../packages/campusTheme/sass/etc/all';
 /* including package ext-theme-neptune */
 @import '../../../ext/packages/ext-theme-neptune/sass/var/Component';
 @import '../../../ext/packages/ext-theme-neptune/sass/var/LoadMask';

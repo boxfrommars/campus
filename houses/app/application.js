@@ -1,17 +1,53 @@
 Ext.define('Houses.Application', {
     name: 'Houses',
+    requires: ['Ext.util.History', 'Houses.view.pages.*', 'Houses.store.Navigation', 'Houses.model.NavigationItem'],
 
     extend: 'Ext.app.Application',
 
-    views: [
-        // TODO: add views here
-    ],
+    views: [],
 
-    controllers: [
-        // TODO: add controllers here
-    ],
+    refs: [{
+        ref: 'navigationGrid',
+        selector: '#houses-navigation-treepanel'
+    }, {
+        ref: 'contentPanel',
+        selector: '#houses-content-panel'
+    }],
 
-    stores: [
-        // TODO: add stores here
-    ]
+    controllers: [],
+
+    init: function() {
+        Ext.util.History.init();
+        this.control({
+            '#houses-navigation-treepanel': {
+                selectionchange: {
+                    fn: function(t, selected){
+                        Ext.util.History.add(selected[0].raw.token, true);
+                    },
+                    scope: this
+                }
+            }
+        });
+    },
+
+    launch: function(){
+        Ext.History.on('change', this.loadPage, this);
+        var token = Ext.util.History.getToken();
+        this.loadPage(token);
+    },
+
+    loadPage: function(token){
+        token = token ? token : 'info';
+        var record = this.getNavigationGrid().getStore().getRootNode().findChild('token', token, true);
+        if (record) {
+            console.log(token);
+            this.getNavigationGrid().getSelectionModel().select(record, false, true);
+            this.getContentPanel().removeAll();
+            this.getContentPanel().setTitle(record.get('text'));
+            this.getContentPanel().add({xtype: record.get('page')});
+        } else {
+            console.log('token ' + token + ' is not exist');
+        }
+
+    }
 });

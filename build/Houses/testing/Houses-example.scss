@@ -554,8 +554,13 @@ $include-extthemeneptune-toolbar-toolbar: true;
 $include-houses-application: true;
 $include-houses-app-application: true;
 $include-houses-controller-main: true;
+$include-houses-model-navigationitem: true;
+$include-houses-store-navigation: true;
 $include-houses-view-main: true;
 $include-houses-view-viewport: true;
+$include-houses-view-pages-engineersystems: true;
+$include-houses-view-pages-info: true;
+$include-houses-view-pages-infopermises: true;
 /* including package ext-theme-base */
 @import '../../../ext/packages/ext-theme-base/sass/etc/all';
 /* including package ext-theme-neutral */

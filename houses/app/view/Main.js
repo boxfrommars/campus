@@ -19,19 +19,10 @@ Ext.define('Houses.view.Main', {
     },
     items: [{
         region: 'west',
-        title: 'Simple Tree',
+        title: 'Навигация',
+        itemId: 'houses-navigation-treepanel',
         xtype: 'treepanel',
-        root: {
-            expanded: true,
-            children: [
-                {text: "Сведения о доме", expanded: true, children: [
-                    { text: "Общие данные", leaf: true },
-                    { text: "Помещения", leaf: true}
-                ]},
-                {text: "Инженерные системы", leaf: true},
-                {text: "Специальное инженерное оборудование", leaf: true }
-            ]
-        },
+        store: 'Houses.store.Navigation',
         rootVisible: false,
         collapsible: true,
         cls: 'x-tree-noicon',
@@ -40,8 +31,9 @@ Ext.define('Houses.view.Main', {
     },{
         region: 'center',
         xtype: 'panel',
+        id: 'houses-content-panel',
         title: '&nbsp;',
-        html: 'qwe qwe'
+        items: []
     }],
 
     dockedItems: [{

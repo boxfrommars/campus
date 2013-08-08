@@ -4213,6 +4213,27 @@ img {
   position: absolute;
 }
 
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/ProgressBar.scss */
+.x-progress {
+  position: relative;
+  border-style: solid;
+  overflow: hidden;
+}
+
+/* line 7, ../../../../ext/packages/ext-theme-base/sass/src/ProgressBar.scss */
+.x-progress-bar {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 100%;
+}
+
+/* line 14, ../../../../ext/packages/ext-theme-base/sass/src/ProgressBar.scss */
+.x-progress-text {
+  overflow: hidden;
+  position: absolute;
+}
+
 /* line 1, ../../../../ext/packages/ext-theme-base/sass/src/button/Button.scss */
 .x-btn {
   display: inline-block;
@@ -4678,6 +4699,151 @@ img {
   background: transparent;
 }
 
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-item-label {
+  display: block;
+}
+
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-item-label-right {
+  text-align: right;
+}
+
+/* line 9, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-item-label-top {
+  display: block;
+  zoom: 1;
+}
+
+/* line 15, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-invalid-icon {
+  overflow: hidden;
+}
+/* line 17, ../../../../ext/packages/ext-theme-base/sass/src/form/Labelable.scss */
+.x-form-invalid-icon ul {
+  display: none;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/TextArea.scss */
+.x-form-textarea {
+  overflow: auto;
+  resize: none;
+}
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/field/TextArea.scss */
+.x-safari.x-mac .x-form-textarea {
+  margin-bottom: -2px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Display.scss */
+.x-form-display-field-body {
+  vertical-align: top;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Checkbox.scss */
+.x-form-cb-wrap {
+  vertical-align: top;
+}
+
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Checkbox.scss */
+.x-form-cb {
+  vertical-align: top;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+}
+/* line 10, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Checkbox.scss */
+.x-form-cb::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 16, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Checkbox.scss */
+.x-form-cb-label {
+  display: inline-block;
+  zoom: 1;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/FieldSet.scss */
+.x-fieldset {
+  display: block;
+  /* preserve margins in IE */
+  position: relative;
+}
+
+/* line 6, ../../../../ext/packages/ext-theme-base/sass/src/form/FieldSet.scss */
+.x-fieldset-header {
+  overflow: hidden;
+}
+/* line 10, ../../../../ext/packages/ext-theme-base/sass/src/form/FieldSet.scss */
+.x-fieldset-header .x-form-item,
+.x-fieldset-header .x-tool {
+  float: left;
+}
+/* line 14, ../../../../ext/packages/ext-theme-base/sass/src/form/FieldSet.scss */
+.x-fieldset-header .x-form-cb-wrap {
+  font-size: 0;
+  line-height: 0;
+}
+/* line 19, ../../../../ext/packages/ext-theme-base/sass/src/form/FieldSet.scss */
+.x-fieldset-header .x-form-cb {
+  margin: 0;
+}
+
+/* line 33, ../../../../ext/packages/ext-theme-base/sass/src/form/FieldSet.scss */
+.x-fieldset-header-text {
+  float: left;
+}
+
+/*misc*/
+/* line 4, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-webkit *:focus {
+  outline: none !important;
+}
+
+/* line 11, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-form-item {
+  vertical-align: top;
+  table-layout: fixed;
+}
+
+/* line 17, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-form-item-body {
+  position: relative;
+}
+
+/* line 33, ../../../../ext/packages/ext-theme-base/sass/src/form/Panel.scss */
+.x-form-form-item td {
+  border-top: 1px solid transparent;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-form-trigger {
+  cursor: pointer;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+/* line 5, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-item-disabled .x-form-trigger {
+  cursor: default;
+}
+
+/* line 10, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-trigger-noedit {
+  cursor: default;
+}
+
+/* line 14, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap {
+  vertical-align: top;
+  border-collapse: separate;
+}
+
+/* line 2, ../../../../ext/packages/ext-theme-base/sass/src/form/field/Spinner.scss */
+.x-form-spinner-up,
+.x-form-spinner-down {
+  font-size: 0;
+}
+
 /* line 1, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Fit.scss */
 .x-fit-item {
   position: relative;
@@ -4847,6 +5013,34 @@ img {
 /* line 14, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Border.scss */
 .x-region-collapsed-placeholder {
   z-index: 4;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Column.scss */
+.x-column {
+  float: left;
+}
+
+/* line 21, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Column.scss */
+.x-ie6 .x-column {
+  display: inline;
+  /*prevent IE6 double-margin bug*/
+}
+
+/* line 25, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Column.scss */
+.x-quirks .x-ie .x-form-layout-table, .x-quirks .x-ie .x-form-layout-table tbody tr.x-form-item {
+  position: relative;
+}
+
+/* line 2, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Form.scss */
+.x-form-layout-table {
+  border-collapse: separate;
+  border-spacing: 0 2px;
+}
+
+/* line 9, ../../../../ext/packages/ext-theme-base/sass/src/layout/container/Form.scss */
+.x-ie6 .x-form-layout-table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* line 1, ../../../../ext/packages/ext-theme-base/sass/src/menu/Menu.scss */
@@ -5196,6 +5390,83 @@ a.x-tab {
   background-image: url(images/loadmask/loading.gif);
   background-repeat: no-repeat;
   background-position: center 0;
+}
+
+/**
+ * Creates a visual theme for an Ext.ProgressBar
+ *
+ * @param {string} $ui-label
+ * The name of the UI being created. Can not included spaces or special punctuation
+ * (used in CSS class names).
+ *
+ * @param {color} [$ui-border-color=$progress-border-color]
+ * The border-color of the ProgressBar
+ *
+ * @param {color} [$ui-background-color=$progress-background-color]
+ * The background-color of the ProgressBar
+ *
+ * @param {color} [$ui-bar-background-color=$progress-bar-background-color]
+ * The background-color of the ProgressBar's moving element
+ *
+ * @param {string/list} [$ui-bar-background-gradient=$progress-bar-background-gradient]
+ * The background-gradient of the ProgressBar's moving element. Can be either the name of
+ * a predefined gradient or a list of color stops. Used as the `$type` parameter for
+ * {@link Global_CSS#background-gradient}.
+ *
+ * @param {color} [$ui-color-front=$progress-text-color-front]
+ * The color of the ProgressBar's text when in front of the ProgressBar's moving element
+ *
+ * @param {color} [$ui-color-back=$progress-text-color-back]
+ * The color of the ProgressBar's text when the ProgressBar's 'moving element is not under it
+ *
+ * @param {number} [$ui-height=$progress-height]
+ * The height of the ProgressBar
+ *
+ * @param {number} [$ui-border-width=$progress-border-width]
+ * The border-width of the ProgressBar
+ *
+ * @param {number} [$ui-border-radius=$progress-border-radius]
+ * The border-radius of the ProgressBar
+ *
+ * @param {string} [$ui-text-text-align=$progress-text-text-align]
+ * The text-align of the ProgressBar's text
+ *
+ * @param {number} [$ui-text-font-size=$progress-text-font-size]
+ * The font-size of the ProgressBar's text
+ *
+ * @param {string} [$ui-text-font-weight=$progress-text-font-weight]
+ * The font-weight of the ProgressBar's text
+ *
+ * @member Ext.ProgressBar
+ */
+/* line 67, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default {
+  background-color: #f5f5f5;
+  border-width: 0;
+  height: 20px;
+  border-color: #157fcc;
+}
+/* line 72, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-content-box .x-progress-default {
+  height: 20px;
+}
+/* line 84, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default .x-progress-bar-default {
+  background-image: none;
+  background-color: #c1ddf1;
+}
+/* line 99, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default .x-progress-text {
+  color: #666666;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px;
+}
+/* line 107, ../../../../ext/packages/ext-theme-neutral/sass/src/ProgressBar.scss */
+.x-progress-default .x-progress-text-back {
+  color: #666666;
+  line-height: 20px;
 }
 
 /**
@@ -10685,6 +10956,196 @@ body.x-nbr .x-tip-default-frameInfo {
   color: black;
 }
 
+/* line 137, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 2px 2px 2px 2px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #eaf3fa;
+}
+
+/* line 189, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-mc {
+  background-color: #eaf3fa;
+}
+
+/* line 235, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-nbr .x-tip-form-invalid {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 255, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+body.x-nbr .x-tip-form-invalid-frameInfo {
+  font-family: th-3-3-3-3-1-1-1-1-2-2-2-2;
+}
+
+/* line 322, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tl {
+  background-position: 0 -6px;
+}
+
+/* line 326, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tr {
+  background-position: right -9px;
+}
+
+/* line 330, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-bl {
+  background-position: 0 -12px;
+}
+
+/* line 334, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-br {
+  background-position: right -15px;
+}
+
+/* line 338, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-ml {
+  background-position: 0 top;
+}
+
+/* line 342, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-mr {
+  background-position: right top;
+}
+
+/* line 346, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tc {
+  background-position: 0 0;
+}
+
+/* line 350, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-bc {
+  background-position: 0 -3px;
+}
+
+/* line 357, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tr,
+.x-tip-form-invalid-br,
+.x-tip-form-invalid-mr {
+  padding-right: 3px;
+}
+
+/* line 363, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tl,
+.x-tip-form-invalid-bl,
+.x-tip-form-invalid-ml {
+  padding-left: 3px;
+}
+
+/* line 367, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tc {
+  height: 3px;
+}
+
+/* line 370, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-bc {
+  height: 3px;
+}
+
+/* line 381, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-tl,
+.x-tip-form-invalid-bl,
+.x-tip-form-invalid-tr,
+.x-tip-form-invalid-br,
+.x-tip-form-invalid-tc,
+.x-tip-form-invalid-bc,
+.x-tip-form-invalid-ml,
+.x-tip-form-invalid-mr {
+  zoom: 1;
+  background-image: url(images/tip/tip-form-invalid-corners.gif);
+}
+
+/* line 425, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-ml,
+.x-tip-form-invalid-mr {
+  zoom: 1;
+  background-image: url(images/tip/tip-form-invalid-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 437, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-tip-form-invalid-mc {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 446, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/frame.scss */
+.x-strict .x-ie7 .x-tip-form-invalid-tl,
+.x-strict .x-ie7 .x-tip-form-invalid-bl {
+  position: relative;
+  right: 0;
+}
+
+/* */
+/* line 100, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-form-invalid {
+  border-color: #e1e1e1;
+}
+/* line 109, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-form-invalid .x-tool-img {
+  background-image: url(images/tools/tool-sprites-dark.png);
+  background-color: #eaf3fa;
+}
+
+/* line 124, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-form-invalid .x-tool-after-title {
+  margin: 0 0 0 6px;
+}
+/* line 134, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-form-invalid .x-tool-before-title {
+  margin: 0 6px 0 0;
+}
+
+/* line 145, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-body-form-invalid {
+  padding: 3px 3px 0 3px;
+}
+
+/* line 149, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-header-text-container-form-invalid {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* line 155, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid {
+  padding: 3px 3px 3px 22px;
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+}
+/* line 160, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid a {
+  color: black;
+}
+
+/* line 265, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid {
+  background: 1px 1px no-repeat;
+  background-image: url(images/form/exclamation.png);
+}
+/* line 268, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid li {
+  margin-bottom: 4px;
+}
+/* line 270, ../../../../ext/packages/ext-theme-neutral/sass/src/tip/Tip.scss */
+.x-tip-body-form-invalid li.last {
+  margin-bottom: 0;
+}
+
 /**
  * Creates a visual theme for a Window
  *
@@ -12327,6 +12788,554 @@ body.x-nbr .x-window-header-default-collapsed-left-frameInfo {
   border-width: 1px !important;
 }
 
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-form-invalid-under {
+  padding: 2px 2px 2px 20px;
+  color: #cf4c35;
+  font: normal 13px helvetica, arial, verdana, sans-serif;
+  line-height: 16px;
+  background: no-repeat 0 2px;
+  background-image: url(images/form/exclamation.png);
+}
+
+/* line 14, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+div.x-lbl-top-err-icon {
+  margin-bottom: 4px;
+}
+
+/* line 18, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-form-invalid-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 5px;
+  background-image: url(images/form/exclamation.png);
+  background-repeat: no-repeat;
+}
+
+/* line 26, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-form-item-label {
+  color: black;
+  font: normal 13px/17px helvetica, arial, verdana, sans-serif;
+  margin-top: 4px;
+}
+
+/* line 45, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-autocontainer-form-item,
+.x-anchor-form-item,
+.x-vbox-form-item,
+.x-table-form-item {
+  margin-bottom: 5px;
+}
+
+/* line 53, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-ie6 .x-form-form-item td {
+  border-top-width: 0;
+}
+/* line 59, ../../../../ext/packages/ext-theme-neutral/sass/src/form/Labelable.scss */
+.x-ie6 td.x-form-item-pad {
+  height: 5px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-form-field {
+  color: black;
+}
+
+/* line 6, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-form-item,
+.x-form-field {
+  font: normal 13px helvetica, arial, verdana, sans-serif;
+}
+
+/* line 21, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-form-type-text textarea.x-form-invalid-field, .x-form-type-text input.x-form-invalid-field,
+.x-form-type-password textarea.x-form-invalid-field,
+.x-form-type-password input.x-form-invalid-field,
+.x-form-type-number textarea.x-form-invalid-field,
+.x-form-type-number input.x-form-invalid-field,
+.x-form-type-email textarea.x-form-invalid-field,
+.x-form-type-email input.x-form-invalid-field,
+.x-form-type-search textarea.x-form-invalid-field,
+.x-form-type-search input.x-form-invalid-field,
+.x-form-type-tel textarea.x-form-invalid-field,
+.x-form-type-tel input.x-form-invalid-field {
+  background-color: white;
+  border-color: #cf4c35;
+}
+
+/* line 37, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Base.scss */
+.x-item-disabled .x-form-item-label,
+.x-item-disabled .x-form-field,
+.x-item-disabled .x-form-display-field,
+.x-item-disabled .x-form-cb-label,
+.x-item-disabled .x-form-trigger {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-form-text {
+  color: black;
+  padding: 4px 6px 3px 6px;
+  background: white repeat-x 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: silver #d9d9d9 #d9d9d9;
+  height: 24px;
+  line-height: 15px;
+}
+/* line 21, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-content-box .x-form-text {
+  height: 15px;
+}
+
+/* line 34, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-form-focus {
+  border-color: #3892d3;
+}
+
+/* line 39, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-form-empty-field,
+textarea.x-form-empty-field {
+  color: gray;
+}
+
+/* line 48, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Text.scss */
+.x-quirks .x-ie .x-form-text,
+.x-ie7m .x-form-text {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/TextArea.scss */
+.x-form-textarea {
+  line-height: normal;
+  height: auto;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Display.scss */
+.x-form-display-field-body {
+  height: 24px;
+}
+
+/* line 11, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Display.scss */
+.x-form-display-field {
+  font: normal 13px/17px helvetica, arial, verdana, sans-serif;
+  color: black;
+  margin-top: 4px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box .x-window-body {
+  background-color: white;
+  border-width: 0;
+}
+
+/* line 13, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-info,
+.x-message-box-warning,
+.x-message-box-question,
+.x-message-box-error {
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/* line 29, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-info {
+  background-image: url(images/shared/icon-info.png);
+}
+
+/* line 33, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-warning {
+  background-image: url(images/shared/icon-warning.png);
+}
+
+/* line 37, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-question {
+  background-image: url(images/shared/icon-question.png);
+}
+
+/* line 41, ../../../../ext/packages/ext-theme-neutral/sass/src/window/MessageBox.scss */
+.x-message-box-error {
+  background-image: url(images/shared/icon-error.png);
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb-wrap {
+  height: 24px;
+}
+
+/* line 10, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb {
+  margin-top: 5px;
+}
+
+/* line 19, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-checkbox {
+  width: 15px;
+  height: 15px;
+  background: url(images/form/checkbox.png) no-repeat;
+}
+
+/* line 25, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb-checked .x-form-checkbox {
+  background-position: 0 -15px;
+}
+
+/* Focused */
+/* line 30, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-checkbox-focus {
+  background-position: -15px 0;
+}
+
+/* line 34, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb-checked .x-form-checkbox-focus {
+  background-position: -15px -15px;
+}
+
+/* boxLabel */
+/* line 40, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb-label {
+  margin-top: 4px;
+  font: normal 13px/17px helvetica, arial, verdana, sans-serif;
+}
+
+/* line 53, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb-label-before {
+  margin-right: 4px;
+}
+
+/* line 64, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Checkbox.scss */
+.x-form-cb-label-after {
+  margin-left: 4px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset {
+  border: 1px solid #b5b8c8;
+  padding: 0 10px;
+  margin: 0 0 10px;
+}
+
+/* line 11, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-ie8m .x-fieldset,
+.x-quirks .x-ie .x-fieldset {
+  padding-top: 0;
+}
+/* line 13, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-ie8m .x-fieldset .x-fieldset-body,
+.x-quirks .x-ie .x-fieldset .x-fieldset-body {
+  padding-top: 0;
+}
+
+/* line 19, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-header-checkbox {
+  line-height: 16px;
+  margin: 1px 3px 0 0;
+}
+
+/* line 24, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-header {
+  padding: 0 3px 1px;
+}
+/* line 27, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-header .x-tool {
+  margin-top: 1px;
+  padding: 0;
+}
+
+/* line 39, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-header-text {
+  font: 12px/16px bold helvetica, arial, verdana, sans-serif;
+  color: black;
+  padding: 1px 0;
+}
+
+/* line 44, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-header-text-collapsible {
+  cursor: pointer;
+}
+
+/* line 50, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-with-title .x-fieldset-header-checkbox,
+.x-fieldset-with-title .x-tool {
+  margin: 1px 3px 0 0;
+}
+
+/* line 66, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-webkit .x-fieldset-header {
+  -webkit-padding-start: 3px;
+  -webkit-padding-end: 3px;
+}
+
+/* line 76, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-opera .x-fieldset-with-legend {
+  margin-top: -1px;
+}
+/* line 79, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-opera.x-mac .x-fieldset-header-text {
+  padding: 2px 0 0;
+}
+
+/* line 87, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-strict .x-ie8 .x-fieldset-header {
+  margin-bottom: -1px;
+}
+/* line 91, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-strict .x-ie8 .x-fieldset-header .x-tool,
+.x-strict .x-ie8 .x-fieldset-header .x-fieldset-header-text,
+.x-strict .x-ie8 .x-fieldset-header .x-fieldset-header-checkbox {
+  position: relative;
+  top: -1px;
+}
+
+/* line 101, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-quirks .x-ie .x-fieldset-header,
+.x-ie8m .x-fieldset-header {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+/* line 109, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-collapsed .x-fieldset-body {
+  display: none;
+}
+
+/* line 114, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-collapsed {
+  padding-bottom: 0 !important;
+  border-width: 1px 1px 0 1px !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+}
+
+/* line 123, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-ie6 .x-fieldset-collapsed {
+  border-width: 1px 0 0 0 !important;
+  padding-bottom: 0 !important;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* line 131, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-ie .x-fieldset-bwrap {
+  zoom: 1;
+}
+
+/* line 137, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset .x-tool-toggle {
+  background-image: url(images/fieldset/collapse-tool.png);
+  background-position: 0 0;
+}
+/* line 144, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset .x-tool-over .x-tool-toggle {
+  background-position: 0 -15px;
+}
+
+/* line 151, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-collapsed .x-tool-toggle {
+  background-position: -15px 0;
+}
+/* line 156, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-collapsed .x-tool-over .x-tool-toggle {
+  background-position: -15px -15px;
+}
+
+/* IE legend positioning bug */
+/* line 164, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-ie .x-fieldset-noborder legend {
+  position: relative;
+  margin-bottom: 23px;
+}
+
+/* line 170, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-ie .x-fieldset-noborder legend span {
+  position: absolute;
+  left: 16px;
+}
+
+/* line 176, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset {
+  overflow: hidden;
+}
+
+/* line 180, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-bwrap {
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 186, ../../../../ext/packages/ext-theme-neutral/sass/src/form/FieldSet.scss */
+.x-fieldset-body {
+  overflow: hidden;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger {
+  background: url(images/form/trigger.png);
+  width: 22px;
+}
+
+/* line 18, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-trigger-cell {
+  background-color: white;
+  width: 22px;
+}
+
+/* line 23, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-over {
+  background-position: -22px 0;
+}
+
+/* line 30, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap-focus .x-form-trigger {
+  background-position: -66px 0;
+}
+
+/* line 37, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap-focus .x-form-trigger-over {
+  background-position: -88px 0;
+}
+
+/* line 42, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-trigger-click,
+.x-form-trigger-wrap-focus .x-form-trigger-click {
+  background-position: -44px 0;
+}
+
+/* line 49, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-clear-trigger {
+  background-image: url(images/form/clear-trigger.png);
+}
+
+/* line 59, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-form-search-trigger {
+  background-image: url(images/form/search-trigger.png);
+}
+
+/* line 73, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-quirks .prefixie6 .x-form-trigger-input-cell {
+  height: 24px;
+}
+/* line 77, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Trigger.scss */
+.x-quirks .prefixie6 .x-field-toolbar .x-form-trigger-input-cell {
+  height: 24px;
+}
+
+/* line 3, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+div.x-form-spinner-up,
+div.x-form-spinner-down {
+  background-image: url(images/form/spinner.png);
+  background-color: white;
+  width: 22px;
+  height: 11px;
+}
+
+/* line 19, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-spinner-down {
+  background-position: 0 -11px;
+}
+
+/* line 23, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap-focus .x-form-spinner-down {
+  background-position: -66px -11px;
+}
+
+/* line 26, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap .x-form-spinner-down-over {
+  background-position: -22px -11px;
+}
+
+/* line 29, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap-focus .x-form-spinner-down-over {
+  background-position: -88px -11px;
+}
+
+/* line 32, ../../../../ext/packages/ext-theme-neutral/sass/src/form/field/Spinner.scss */
+.x-form-trigger-wrap .x-form-spinner-down-click {
+  background-position: -44px -11px;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/toolbar/Paging.scss */
+.x-tbar-page-number {
+  width: 30px;
+}
+
+/* line 5, ../../../../ext/packages/ext-theme-neutral/sass/src/toolbar/Paging.scss */
+.x-tbar-page-first {
+  background-image: url(images/grid/page-first.png);
+}
+
+/* line 9, ../../../../ext/packages/ext-theme-neutral/sass/src/toolbar/Paging.scss */
+.x-tbar-page-prev {
+  background-image: url(images/grid/page-prev.png);
+}
+
+/* line 13, ../../../../ext/packages/ext-theme-neutral/sass/src/toolbar/Paging.scss */
+.x-tbar-page-next {
+  background-image: url(images/grid/page-next.png);
+}
+
+/* line 17, ../../../../ext/packages/ext-theme-neutral/sass/src/toolbar/Paging.scss */
+.x-tbar-page-last {
+  background-image: url(images/grid/page-last.png);
+}
+
+/* line 21, ../../../../ext/packages/ext-theme-neutral/sass/src/toolbar/Paging.scss */
+.x-tbar-loading {
+  background-image: url(images/grid/refresh.png);
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-boundlist {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e1;
+  background: white;
+}
+
+/* line 10, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-strict .x-ie7m .x-boundlist-list-ct {
+  position: relative;
+}
+
+/* line 15, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-boundlist-item {
+  padding: 0 6px;
+  line-height: 22px;
+  cursor: pointer;
+  cursor: hand;
+  position: relative;
+  /*allow hover in IE on empty items*/
+  zoom: 1;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: white;
+}
+
+/* line 33, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-boundlist-selected {
+  background: #c1ddf1;
+  border-color: #c1ddf1;
+}
+
+/* line 38, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-boundlist-item-over {
+  background: #d6e8f6;
+  border-color: #d6e8f6;
+}
+
+/* line 43, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-boundlist-floating {
+  border-top-width: 0;
+}
+
+/* line 47, ../../../../ext/packages/ext-theme-neutral/sass/src/view/BoundList.scss */
+.x-boundlist-above {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 /* line 1, ../../../../ext/packages/ext-theme-neutral/sass/src/panel/Table.scss */
 .x-grid-body {
   background: white;
@@ -12844,6 +13853,12 @@ body.x-nbr .x-window-header-default-collapsed-left-frameInfo {
 /* line 294, ../../../../ext/packages/ext-theme-neutral/sass/src/menu/Menu.scss */
 .x-menu-date-item {
   border-color: #99BBE8;
+}
+
+/* line 300, ../../../../ext/packages/ext-theme-neutral/sass/src/menu/Menu.scss */
+.x-menu-item .x-form-item-label {
+  font-size: 13px;
+  color: black;
 }
 
 /* line 306, ../../../../ext/packages/ext-theme-neutral/sass/src/menu/Menu.scss */
@@ -18380,6 +19395,34 @@ body.x-nbr .x-panel-header-light-framed-collapsed-left-frameInfo {
 .x-panel-light-framed-outer-border-trbl {
   border-color: #157fcc !important;
   border-width: 1px !important;
+}
+
+/* line 1, ../../../../ext/packages/ext-theme-neptune/sass/src/form/field/Trigger.scss */
+.x-form-trigger {
+  height: 22px;
+}
+
+/* line 9, ../../../../ext/packages/ext-theme-neptune/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap {
+  border: 1px solid;
+  border-color: silver #d9d9d9 #d9d9d9;
+}
+/* line 12, ../../../../ext/packages/ext-theme-neptune/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap .x-form-text {
+  border-width: 0;
+  height: 22px;
+}
+/* line 16, ../../../../ext/packages/ext-theme-neptune/sass/src/form/field/Trigger.scss */
+.x-content-box .x-form-trigger-wrap .x-form-text {
+  height: 15px;
+}
+/* line 22, ../../../../ext/packages/ext-theme-neptune/sass/src/form/field/Trigger.scss */
+.x-form-trigger-wrap-focus .x-form-trigger-wrap {
+  border-color: #3892d3;
+}
+/* line 26, ../../../../ext/packages/ext-theme-neptune/sass/src/form/field/Trigger.scss */
+.x-form-invalid .x-form-trigger-wrap {
+  border-color: #cf4c35;
 }
 
 /* line 1, ../../../../ext/packages/ext-theme-neptune/sass/src/grid/header/Container.scss */
