@@ -2,6 +2,7 @@ Ext.define('Houses.view.pages.Info', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.houses-page-info',
     requires:[
+        'Houses.view.DataForm',
         'Ext.form.Panel',
         'Ext.layout.container.Column',
         'Ext.layout.container.Form',
@@ -11,75 +12,42 @@ Ext.define('Houses.view.pages.Info', {
     id: 'houses-page-info',
     bodyPadding: 15,
     items: [{
-        xtype: 'form',
-        id: 'search-card-form',
+        xtype: 'data-form',
         layout:'column',
-        buttons: [{
-            xtype: 'checkbox',
-            fieldLabel: 'Редактирование',
-            action: 'search'
-        }, {
-            xtype: 'button',
-            text: 'Сохранить',
-            disabled: true,
-            action: 'search'
-        }, {
-            text: 'Сбросить',
-            disabled: true,
-            handler: function() {
-                this.up('form').getForm().reset();
+        defaults: {
+            columnWidth: 0.3,
+            layout: 'form',
+            defaults: {
+                anchor: '100%',
+                disabled: true,
+                labelWidth: 120
             }
-        }],
-        items: [
-            {
-                defaults: {
-                    anchor: '100%',
-                    labelWidth: 120,
-                    style: 'border: 0',
-                    border: 0,
-                    fieldStyle: {
-                        border: 0
-                    }
-                },
-                columnWidth: 0.3,
-                layout: 'form',
-                bodyPadding: '0 10 10 0',
-                items: [{
-                    xtype: 'textfield',
-                    name: 'address',
-                    fieldLabel: 'Адрес',
-                    value: 'Краснодар, Ленина 50, кв. 44'
-                }, {
-                    xtype: 'combobox',
-
-                    store: ['Блокированной застройки', 'Индивидуальной застройки'],
-                    name: 'type',
-                    fieldLabel: 'Тип дома'
-                }]
+        },
+        items: [{
+            bodyPadding: '0 10 10 0',
+            items: [{
+                xtype: 'textfield',
+                fieldLabel: 'Адрес',
+                name: 'address',
+                value: 'Краснодар, Ленина 50, кв. 44'
             }, {
-                defaults: {
-                    anchor: '100%',
-                    labelWidth: 120,
-                    style: 'border: 0',
-                    border: 0,
-                    fieldStyle: {
-                        border: 0
-                    }
-                },
-                layout: 'form',
-                bodyPadding: '0 0 10 10',
-                columnWidth: 0.3,
-                items: [{
-                    xtype: 'textfield',
-                    name: 'series',
-                    fieldLabel: 'Серия дома'
-                }, {
-                    fieldLabel: 'Состояние дома',
-                    xtype: 'combobox',
-                    store: ['Блокированной застройки', 'Индивидуальной застройки'],
-                    name: 'type'
-                }]
+                xtype: 'combobox',
+                store: ['Блокированной застройки', 'Индивидуальной застройки'],
+                name: 'type',
+                fieldLabel: 'Тип дома'
             }]
-
+        }, {
+            bodyPadding: '0 0 10 10',
+            items: [{
+                xtype: 'textfield',
+                fieldLabel: 'Серия дома',
+                name: 'series'
+            }, {
+                xtype: 'combobox',
+                fieldLabel: 'Состояние дома',
+                store: ['Блокированной застройки', 'Индивидуальной застройки'],
+                name: 'type'
+            }]
+        }]
     }]
 });

@@ -21,6 +21,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Houses.view.Viewport": [],
   "Ext.ux.grid.TransformGrid": [],
   "Ext.ux.ajax.DataSimlet": [],
+  "Houses.view.DataForm": [],
   "Ext.ux.FieldReplicator": [],
   "Houses.model.NavigationItem": [],
   "Ext.ux.grid.filter.ListFilter": [],
@@ -112,6 +113,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Houses.view.Viewport": [],
   "Ext.ux.grid.TransformGrid": [],
   "Ext.ux.ajax.DataSimlet": [],
+  "Houses.view.DataForm": [
+    "widget.data-form"
+  ],
   "Ext.ux.FieldReplicator": [],
   "Houses.model.NavigationItem": [],
   "Ext.ux.grid.filter.ListFilter": [

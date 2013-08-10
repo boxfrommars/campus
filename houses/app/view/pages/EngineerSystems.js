@@ -20,38 +20,19 @@ Ext.define('Houses.view.pages.EngineerSystems', {
             "font-size": '1.2em'
         }
     }, {
-        xtype: 'form',
-        id: 'search-card-form',
+        xtype: 'data-form',
         layout:'column',
-        buttons: [{
-            xtype: 'checkbox',
-            fieldLabel: 'Редактирование',
-            action: 'search'
-        }, {
-            xtype: 'button',
-            text: 'Сохранить',
-            disabled: true,
-            action: 'search'
-        }, {
-            text: 'Сбросить',
-            disabled: true,
-            handler: function() {
-                this.up('form').getForm().reset();
+        defaults: {
+            columnWidth: 0.3,
+            layout: 'form',
+            defaults: {
+                anchor: '100%',
+                disabled: true,
+                labelWidth: 120
             }
-        }],
+        },
         items: [
             {
-                defaults: {
-                    anchor: '100%',
-                    labelWidth: 120,
-                    style: 'border: 0',
-                    border: 0,
-                    fieldStyle: {
-                        border: 0
-                    }
-                },
-                columnWidth: 0.3,
-                layout: 'form',
                 bodyPadding: '0 10 10 0',
                 items: [{
                     xtype: 'combobox',
