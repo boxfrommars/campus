@@ -35,7 +35,8 @@ Ext.define('Houses.view.pages.Info', {
                 store: ['Блокированной застройки', 'Индивидуальной застройки'],
                 value: 'Блокированной застройки',
                 name: 'type',
-                fieldLabel: 'Тип дома'
+                fieldLabel: 'Тип дома',
+                editable: false
             }]
         }, {
             bodyPadding: '0 0 10 10',
@@ -48,7 +49,8 @@ Ext.define('Houses.view.pages.Info', {
                 fieldLabel: 'Состояние дома',
                 value: 'Нормальное',
                 store: ['Нормальное', 'Не очень'],
-                name: 'type'
+                name: 'type',
+                editable: false
             }]
         }]
     }]

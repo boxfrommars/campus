@@ -40,7 +40,8 @@ Ext.define('Houses.view.pages.EngineerSystems', {
                     store: ['Тип 1', 'Тип 2'],
                     value: 'Тип 1',
                     name: 'type',
-                    fieldLabel: 'Тип'
+                    fieldLabel: 'Тип',
+                    editable: false
                 }]
             }]
 
