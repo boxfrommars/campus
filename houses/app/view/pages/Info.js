@@ -15,7 +15,7 @@ Ext.define('Houses.view.pages.Info', {
         xtype: 'data-form',
         layout:'column',
         defaults: {
-            columnWidth: 0.3,
+            columnWidth: 0.5,
             layout: 'form',
             defaults: {
                 anchor: '100%',
@@ -29,10 +29,11 @@ Ext.define('Houses.view.pages.Info', {
                 xtype: 'textfield',
                 fieldLabel: 'Адрес',
                 name: 'address',
-                value: 'Краснодар, Ленина 50, кв. 44'
+                value: 'Ленина 50'
             }, {
                 xtype: 'combobox',
                 store: ['Блокированной застройки', 'Индивидуальной застройки'],
+                value: 'Блокированной застройки',
                 name: 'type',
                 fieldLabel: 'Тип дома'
             }]
@@ -45,7 +46,8 @@ Ext.define('Houses.view.pages.Info', {
             }, {
                 xtype: 'combobox',
                 fieldLabel: 'Состояние дома',
-                store: ['Блокированной застройки', 'Индивидуальной застройки'],
+                value: 'Нормальное',
+                store: ['Нормальное', 'Не очень'],
                 name: 'type'
             }]
         }]

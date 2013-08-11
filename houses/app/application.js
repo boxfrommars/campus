@@ -1,6 +1,6 @@
 Ext.define('Houses.Application', {
     name: 'Houses',
-    requires: ['Ext.util.History', 'Houses.view.pages.*', 'Houses.store.Navigation', 'Houses.model.NavigationItem'],
+    requires: ['Ext.util.History', 'Houses.view.pages.*'],
 
     extend: 'Ext.app.Application',
 

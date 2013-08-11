@@ -69,7 +69,7 @@ Ext.define('Houses.view.Main', {
             }
         },{
             xtype: 'button',
-            text: 'Краснодар. ул. Ленина д. 50 кв. 44',
+            text: 'Ленина 50',
             disabled: true,
             style: {
                 color: '#000',

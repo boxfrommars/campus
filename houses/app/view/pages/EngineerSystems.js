@@ -23,7 +23,7 @@ Ext.define('Houses.view.pages.EngineerSystems', {
         xtype: 'data-form',
         layout:'column',
         defaults: {
-            columnWidth: 0.3,
+            columnWidth: 0.5,
             layout: 'form',
             defaults: {
                 anchor: '100%',
@@ -38,6 +38,7 @@ Ext.define('Houses.view.pages.EngineerSystems', {
                     xtype: 'combobox',
 
                     store: ['Тип 1', 'Тип 2'],
+                    value: 'Тип 1',
                     name: 'type',
                     fieldLabel: 'Тип'
                 }]
