@@ -31,7 +31,7 @@ Ext.define('Houses.view.Main', {
     },{
         region: 'center',
         xtype: 'panel',
-        id: 'houses-content-panel',
+        itemId: 'houses-content-panel',
         title: '&nbsp;',
         items: []
     }],

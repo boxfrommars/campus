@@ -4,7 +4,6 @@ Ext.define('Houses.view.pages.InfoPermises', {
     requires:[
         'Ext.grid.Panel'
     ],
-    id: 'houses-page-infopermises',
     items: [{
         xtype: 'gridpanel',
         columns: [{

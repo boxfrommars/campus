@@ -19,15 +19,20 @@ Ext.define('Houses.view.DataForm', {
         enableToggle: true,
         text: 'Редактирование',
         toggleHandler: function(elm, checked) {
-            var form = this.up('form');
-            console.log(checked);
+            var form = elm.up('form');
             var fields = form.getForm().getFields();
             Ext.each(fields.items, function (f) {
                 if (f.action !== 'unlock') f.setDisabled(!checked);
             });
-            form.down('button[action="save"]').setDisabled(!checked);
-            form.down('button[action="reset"]').setDisabled(!checked);
+            form.down('button[action="save"]').setDisabled(!(checked && form.isDirty()));
+            form.down('button[action="reset"]').setDisabled(!(checked && form.isDirty()));
         },
         action: 'unlock'
-    }]
+    }],
+    listeners: {
+        dirtychange: function(form, dirty){
+            this.down('button[action="save"]').setDisabled(!dirty);
+            this.down('button[action="reset"]').setDisabled(!dirty);
+        }
+    }
 });

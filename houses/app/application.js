@@ -1,6 +1,10 @@
 Ext.define('Houses.Application', {
     name: 'Houses',
-    requires: ['Ext.util.History', 'Houses.view.pages.*'],
+    requires: [
+        'Houses.config.Runtime',
+        'Ext.util.History',
+        'Houses.view.pages.*'
+    ],
 
     extend: 'Ext.app.Application',
 

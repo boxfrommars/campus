@@ -9,7 +9,6 @@ Ext.define('Houses.view.pages.Info', {
         'Ext.form.FieldSet',
         'Ext.form.field.ComboBox'
     ],
-    id: 'houses-page-info',
     bodyPadding: 15,
     items: [{
         xtype: 'data-form',

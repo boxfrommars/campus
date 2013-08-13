@@ -4,11 +4,8 @@ Ext.define('Houses.view.pages.EngineerSystems', {
     requires:[
         'Ext.form.Panel',
         'Ext.layout.container.Column',
-        'Ext.layout.container.Form',
-        'Ext.form.FieldSet',
         'Ext.form.field.ComboBox'
     ],
-    id: 'houses-page-engineersystems',
     bodyPadding: 15,
     items: [{
         xtype: 'tbtext',
@@ -31,19 +28,17 @@ Ext.define('Houses.view.pages.EngineerSystems', {
                 labelWidth: 120
             }
         },
-        items: [
-            {
-                bodyPadding: '0 10 10 0',
-                items: [{
-                    xtype: 'combobox',
+        items: [{
+            bodyPadding: '0 10 10 0',
+            items: [{
+                xtype: 'combobox',
 
-                    store: ['Тип 1', 'Тип 2'],
-                    value: 'Тип 1',
-                    name: 'type',
-                    fieldLabel: 'Тип',
-                    editable: false
-                }]
+                store: ['Тип 1', 'Тип 2'],
+                value: 'Тип 1',
+                name: 'type',
+                fieldLabel: 'Тип',
+                editable: false
             }]
-
+        }]
     }]
 });
